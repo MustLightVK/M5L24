@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+}
+.scrollContainer {
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+
+    background: lightcyan;
+}
+#scrollToTopBtn {
+    display: none;
+}
+#scrollToTopBtn.active {
+    display: block;
+}
